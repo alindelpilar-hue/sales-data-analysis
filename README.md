@@ -9,9 +9,9 @@
 
 ## Tools
 
-Python
-Pandas
-Matplotlib
+*Python
+*Pandas
+*Matplotlib
 
 ## Dataset
 
