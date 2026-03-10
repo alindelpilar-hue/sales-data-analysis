@@ -1,11 +1,11 @@
-Objetivos del proyecto
-1-cuales son los productos ms vendidos(Proyectos mas vendidos)
-2-q estado tiene mas ventas(Estados con mas vendidos) 
-3-cual es el compotamiento de ventas por mes?(Comportamiento mensual)
-4-existen patrones en los clientes frecuentes(Patrones de clientes)
-*tips-revisar quienes son esos clientes, ver q compran, cuanto gstan, cuando compran?
+#Objetivos del proyecto
+#1-cuales son los productos ms vendidos(Proyectos mas vendidos)
+#2-q estado tiene mas ventas(Estados con mas vendidos) 
+#3-cual es el compotamiento de ventas por mes?(Comportamiento mensual)
+#4-existen patrones en los clientes frecuentes(Patrones de clientes)
+#*tips-revisar quienes son esos clientes, ver q compran, cuanto gstan, cuando compran?
 
-fuente kaggle.
+#fuente kaggle.
 #importar el archivo e importar librerias
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -29,7 +29,7 @@ top_10.to_csv('top 10 of the products with more sales.csv')
 
 # Hacemos una vizualizacion para ir entendiendo el comportamiento por producto
 top_10.plot(kind="bar", figsize=(10,5))
-plt.title("Top 10 productos m·s vendidos")
+plt.title("Top 10 productos m√°s vendidos")
 plt.xlabel("Producto")
 plt.ylabel("Cantidad vendida")
 plt.show()
@@ -40,7 +40,7 @@ top_city.to_csv('states and cities with more sales.csv')
 
 #vizualizamos tamben este reultado
 top_city.plot(kind="bar", figsize=(10,5), color="orange")
-plt.title("Estados con m·s ventas")
+plt.title("Estados con m√°s ventas")
 plt.xlabel("Ciudad / Estado")
 plt.ylabel("Ventas totales")
 plt.show()
@@ -107,4 +107,5 @@ plt.scatter(rfm["Frequency"], rfm["Monetary"])
 plt.xlabel("Frequency")
 plt.ylabel("Monetary")
 plt.title("Customer Segmentation")
+
 plt.show()
